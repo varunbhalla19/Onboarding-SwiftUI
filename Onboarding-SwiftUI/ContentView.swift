@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Onboarding-SwiftUI
 //
-//  Created by varunb-kc on 15/08/22.
+//  Created by varunbhalla19 on 15/08/22.
 //
 
 import SwiftUI
