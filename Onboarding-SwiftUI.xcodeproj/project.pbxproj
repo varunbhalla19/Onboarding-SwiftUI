@@ -11,6 +11,15 @@
 		D55A28E128AA2A77009EE75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55A28E028AA2A77009EE75C /* ContentView.swift */; };
 		D55A28E328AA2A7A009EE75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55A28E228AA2A7A009EE75C /* Assets.xcassets */; };
 		D55A28E628AA2A7A009EE75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55A28E528AA2A7A009EE75C /* Preview Assets.xcassets */; };
+		D595F21028AA30C100A5CE4A /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F20F28AA30C100A5CE4A /* OnBoardingView.swift */; };
+		D595F21328AA311100A5CE4A /* ScreenStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F21228AA311100A5CE4A /* ScreenStates.swift */; };
+		D595F21528AA316500A5CE4A /* Genders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F21428AA316500A5CE4A /* Genders.swift */; };
+		D595F21828AA31F000A5CE4A /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F21728AA31F000A5CE4A /* MainScreen.swift */; };
+		D595F21A28AA34B100A5CE4A /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F21928AA34B100A5CE4A /* Welcome.swift */; };
+		D595F21C28AA356800A5CE4A /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F21B28AA356800A5CE4A /* Name.swift */; };
+		D595F21E28AA372300A5CE4A /* Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F21D28AA372300A5CE4A /* Age.swift */; };
+		D595F22028AA37F800A5CE4A /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F21F28AA37F800A5CE4A /* Gender.swift */; };
+		D595F22428AA39C500A5CE4A /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595F22328AA39C500A5CE4A /* ProfileCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		D55A28E028AA2A77009EE75C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D55A28E228AA2A7A009EE75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D55A28E528AA2A7A009EE75C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D595F20F28AA30C100A5CE4A /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		D595F21228AA311100A5CE4A /* ScreenStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenStates.swift; sourceTree = "<group>"; };
+		D595F21428AA316500A5CE4A /* Genders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genders.swift; sourceTree = "<group>"; };
+		D595F21728AA31F000A5CE4A /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		D595F21928AA34B100A5CE4A /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		D595F21B28AA356800A5CE4A /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		D595F21D28AA372300A5CE4A /* Age.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age.swift; sourceTree = "<group>"; };
+		D595F21F28AA37F800A5CE4A /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		D595F22328AA39C500A5CE4A /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,7 @@
 		D55A28DD28AA2A77009EE75C /* Onboarding-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D595F20E28AA30AC00A5CE4A /* OnBoarding */,
 				D55A28DE28AA2A77009EE75C /* Onboarding_SwiftUIApp.swift */,
 				D55A28E028AA2A77009EE75C /* ContentView.swift */,
 				D55A28E228AA2A7A009EE75C /* Assets.xcassets */,
@@ -65,6 +84,38 @@
 				D55A28E528AA2A7A009EE75C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D595F20E28AA30AC00A5CE4A /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				D595F21628AA31D300A5CE4A /* Views */,
+				D595F21128AA30FF00A5CE4A /* Model */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		D595F21128AA30FF00A5CE4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D595F21228AA311100A5CE4A /* ScreenStates.swift */,
+				D595F21428AA316500A5CE4A /* Genders.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D595F21628AA31D300A5CE4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D595F20F28AA30C100A5CE4A /* OnBoardingView.swift */,
+				D595F21728AA31F000A5CE4A /* MainScreen.swift */,
+				D595F21928AA34B100A5CE4A /* Welcome.swift */,
+				D595F21B28AA356800A5CE4A /* Name.swift */,
+				D595F21D28AA372300A5CE4A /* Age.swift */,
+				D595F21F28AA37F800A5CE4A /* Gender.swift */,
+				D595F22328AA39C500A5CE4A /* ProfileCard.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D595F21E28AA372300A5CE4A /* Age.swift in Sources */,
+				D595F22428AA39C500A5CE4A /* ProfileCard.swift in Sources */,
 				D55A28E128AA2A77009EE75C /* ContentView.swift in Sources */,
+				D595F21828AA31F000A5CE4A /* MainScreen.swift in Sources */,
+				D595F21528AA316500A5CE4A /* Genders.swift in Sources */,
 				D55A28DF28AA2A77009EE75C /* Onboarding_SwiftUIApp.swift in Sources */,
+				D595F21328AA311100A5CE4A /* ScreenStates.swift in Sources */,
+				D595F22028AA37F800A5CE4A /* Gender.swift in Sources */,
+				D595F21028AA30C100A5CE4A /* OnBoardingView.swift in Sources */,
+				D595F21C28AA356800A5CE4A /* Name.swift in Sources */,
+				D595F21A28AA34B100A5CE4A /* Welcome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
